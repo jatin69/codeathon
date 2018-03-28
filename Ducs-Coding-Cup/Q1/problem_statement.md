@@ -32,14 +32,18 @@ For each test case, print the required answer in one line.
 
 ## Sample Input 
 ```
-1
+2
 5
 10 1 10 1 10
+1
+13
 ```
 ## Sample Output 
 ```
 36
+0
 ```
 
 ## Explanation 
 The maximum value occurs when A1=A3=A5=10 and A2=A4=1.
+Second test case must return 0 as A[i-1] isn't possible.
