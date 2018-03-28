@@ -24,6 +24,7 @@ Repo to maintain Questions
     + input files : 00, 01, 02 
     + output files : 00.a, 01.a, 02.a  
     + Both input / output files should have a newline at end so we dont end up getting messed up doubts in contents.
+    + 00 is the sample test case, others follow normally
 
 - Input eg
 ```
