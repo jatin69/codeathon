@@ -31,9 +31,9 @@ Mr. Zazoo Zizoo has just finished giving his 10th board exams. He has a month va
 
 Zazoo tells Zuzoo that she is allowed to flip and rotate pieces before placing them on the board.
 
-Input
+Input Format
 
-The first line contains two numbers - 100<=n,m<=100 - the height and the width of the board. The next n lines, each containing m space-separated numbers, are the board description. The symbol '0' is a square which should be filled, the symbol '1' is a square which should not be filled.
+The first line contains dimension of the board - the height, 100<=n and the width, m<=100 of the board. The next n lines, each containing m space-separated numbers, are the board description. The symbol '0' is a square which should be filled, the symbol '1' is a square which should not be filled.
 
 ```
 Constraints:
@@ -42,12 +42,12 @@ Constraints:
 
 ```
 
-Output
+Output Format
 
-First output the number of pieces used, k < 106. Then write k successive descriptions of the used pieces. Each description should be of the form: t - the number of full squares of the piece, followed by t pairs of integers denoting the coordinates of the respective squares (using 0-based offsets, with the top-left of input written as (0,0) ).
+First output the “number of pieces” used, k < 106. Then write k “successive descriptions” of the used pieces. Each description should be of the form: t - the number of full squares of the piece, followed by t pairs of integers denoting the “coordinates” of the respective squares (using 0-based offsets, with the top-left of input written as (0,0) ).
 
 ```
-Input:
+Sample Input:
 3 3
 0 0 0
 0 0 0
@@ -55,7 +55,7 @@ Input:
 
 ```
 ```
-Output:
+Sample Output:
 1
 5
 0 0
@@ -65,3 +65,10 @@ Output:
 0 2
 
 ```
+
+Explanation
+
+Use shapes to fill maximum square boxes in the board.
+Maximum number of pieces can be used when all the squares in the board has ‘0’ symbol.
+Output will be 0 when all the squares in the board has ‘1’ symbol since no any piece can be used, as shown in the first test case.
+
