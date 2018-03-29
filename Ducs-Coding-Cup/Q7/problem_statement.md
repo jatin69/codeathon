@@ -11,18 +11,24 @@ Next 3 lines contain 3 arrays each of size N denoting the rating of the i_th per
 Print an integer denoting the maximum sum of scores that can be obtained
 
 ## Constraints:
+```
 1<=N,P,D,V<=2000
 1<=P+D+V<=N
 1<=ratings<=1000
+```
 
 ## Sample Input:
+```
 3 1 1 1
 1 2 3
 1 3 3
 4 5 6
+```
 
 ## Sample Output:
+```
 10
+```
 
 ## Explanation
 Choose the 1st person for Programming , 2nd for Designing and 3rd for Volunteering (1+3+6=10) .
