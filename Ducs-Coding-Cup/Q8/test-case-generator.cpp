@@ -93,26 +93,34 @@ int main() {
   //		{1, 1, 1, 0},
   //	};
 
-  // input dimensions
+  // random dimensions
   // int V = 4;
-  int V;
-  cin >> V;
+  int V = rand() % 50 + 1;
+  cout << V << "\n";
 
   bool **graph = new bool *[V];
   for (int i = 0; i < V; ++i) {
     graph[i] = new bool[V];
   }
-  // input graph
+  // random graph
   for (int i = 0; i < V; ++i) {
     for (int j = 0; j < V; ++j) {
-      cin >> graph[i][j];
+
+      if (i < j) {
+        graph[i][j] = rand() % 2;
+        graph[j][i] = graph[i][j];
+      } else if (i == j) {
+        graph[i][j] = 0;
+      }
+      cout << graph[i][j] << " ";
     }
+    cout << "\n";
   }
 
   // random number of colors
   // int m = 4; // Number of colors
-  int m;
-  cin >> m;
+  int m = rand() % V + 2;
+  cout << m << "\n";
 
   printf("\n");
   graphColoring(graph, V, m);
