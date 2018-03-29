@@ -1,6 +1,6 @@
 
 ```
-#Q6#
+**Q6**
 ```
 
 Mr. Zazoo Zizoo has just finished giving his 10th board exams. He has a month vacation now. Zazoo is feeling bored and so decides to play a game with his girlfriend, Zuzoo. He tells Zuzoo that if she wins the game, he will take her on a coffee date. For this, Zazoo gives Zuzoo a huge game board that has holes on it and some 	tetris-like shapes. These tetris-like shapes are not restricted in terms of quantity i.e there is unlimited source of these shapes. Now, Zuzoo has to place these tetris-like shapes on the board and cover the board as exactly as possible. The source is capable of generating the following pieces:
