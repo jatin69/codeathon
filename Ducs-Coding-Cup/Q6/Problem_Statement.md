@@ -7,28 +7,25 @@ Mr. Zazoo Zizoo has just finished giving his 10th board exams. He has a month va
 1)
 %%%
 .%%
-```
-```
+
 2)
 %%.
 %%%
-```
-```
+
 3)
 %.%
 %%%
-```
-```
+
 4)
 ..%
 %%%
 %..
-```
-```
+
 5)
 .%.
 %%%
 .%.
+
 ```
 
 Zazoo tells Zuzoo that she is allowed to flip and rotate pieces before placing them on the board.
@@ -41,6 +38,7 @@ The first line contains two numbers - 100<=n,m<=100 - the height and the width o
 Constraints:
 3<=n<=100
 3<=m<=100
+
 ```
 
 Output
@@ -53,6 +51,7 @@ Input:
 0 0 0
 0 0 0
 1 0 0
+
 ```
 ```
 Output:
@@ -63,4 +62,5 @@ Output:
 1 1
 1 2
 0 2
+
 ```
