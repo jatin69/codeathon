@@ -10,6 +10,7 @@ Line = [A B C D] can form groups as follows
 > A, B, C, D
 > AB, BC, CD
 > ABC, BCD
+> ABCD
 ```
 
 After every iteration, she applies the function XOR to everyone in the line to finds the winner of that iteration. At the end of the day, she does the same with all the winners to find the ultimate winner.
