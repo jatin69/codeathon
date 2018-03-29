@@ -1,4 +1,4 @@
-# Q9
+# Q4
 
 On being caught and sentenced to death by the East India Trading company, the famous pirate, Blackbeard confessed that he had hidden all his treasures on the island of Isla de Muerta. On being asked about it he only replied, 
 “21 and step”. Now 200 years later his diary has been found aboard the wrecks of his prized galleon Queen’s Anne’s Revenge. The diary was filled with gibberish, except on one page. 
