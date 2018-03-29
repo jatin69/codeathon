@@ -67,6 +67,7 @@ Sample Output:
 ```
 
 Explanation
+
 Maximum number of pieces can be used when all the squares in the board has ‘0’ symbol.
 Output will be 0 when all the squares in the board has ‘1’ symbol since no any piece can be used, as shown in the first test case.
 
