@@ -1,3 +1,4 @@
+
 #include "bits/stdc++.h"
 
 using namespace std;
@@ -24,7 +25,7 @@ int main () {
 
     sort(vs.begin(), vs.end());
 
-    for(auto &tmp : vs) {
+    for(auto tmp : vs) {
         int x, y;
         tie(x, y) = tmp;
         int cnt = 1;
