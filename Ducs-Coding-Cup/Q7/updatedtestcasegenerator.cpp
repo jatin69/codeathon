@@ -100,7 +100,7 @@ int main(){
 	//cin>>n>>p>>d>>m;
 	n=(rand() %2000)+1;
 	//cout<<"Value of n : ";
-	cout<<n<<"\n";
+	//cout<<n<<"\n";
 	while(1)
 	{
 		p=(rand() %2000)+1;
@@ -112,7 +112,7 @@ int main(){
 		else
 		{
 		//cout<<"\n\n\t Values of p,d and m : ";
-		cout<<p<<" "<<d<<" "<<m<<"\n\n";
+		//cout<<p<<" "<<d<<" "<<m<<"\n\n";
 		break;
 		}
 		
@@ -125,20 +125,20 @@ int main(){
 		P[i]=(rand() %1000)+1;
 		//cout<<P[i]<<" ";
 	}
-	cout<<"\n";
+	//cout<<"\n";
 	for(i=1;i<=n;i++)
 	{
 		D[i]=(rand() %1000)+1;
 		//cout<<D[i]<<" ";
 	}
-	cout<<"\n";
+	//cout<<"\n";
 	for(i=1;i<=n;i++)
 	{
 		M[i]=(rand() %1000)+1;
 		//cout<<D[i]<<" ";
 	}
 		//cin>>M[i];
-	cout<<"\n"; 
+	//cout<<"\n"; 
 	int source=0,sink=n+1,poe=n+2,dan=n+3,mus=n+4;
 	MinCostMaxFlow mf(n+10);
  
