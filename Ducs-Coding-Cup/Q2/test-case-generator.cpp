@@ -5,8 +5,8 @@
 #include <algorithm>
 #include <fstream>
 using namespace std;
-int main(){
-	std::ofstream out("15.txt");
+int main(int v,char*c[]){
+	std::ofstream out(c[1]);
     std::streambuf *coutbuf = std::cout.rdbuf(); //save old buf
     std::cout.rdbuf(out.rdbuf()); //redirect std::cout to out.txt!
 
@@ -16,9 +16,9 @@ int main(){
 	
 	srand(time(0));	
 
-	n=1+rand()%(200000);
-	q=1+rand()%(200000);
-	k=2+rand()%(n);
+	n=1+rand()%(200);
+	q=1+rand()%(200);
+	k=2+rand()%(n/2);
 	cout<<n<<" "<<k<<" "<<q<<endl;
 	
 	vector <long long int> *teams;
@@ -38,8 +38,8 @@ int main(){
 			if(teams[x-1].size())
 				p= *std::max_element(&teams[x-1][0], &teams[x-1][teams[x-1].size()-1]) + rand()%(200000);
 			else 
-				p= 1 + + rand()%(200000);
-			cout<<x<<" "<<p<<endl;
+				p= 1 +  rand()%(200000);
+			cout<<p<<" "<<x<<endl;
 		}
 		else{
 			x=1+rand()%k;
