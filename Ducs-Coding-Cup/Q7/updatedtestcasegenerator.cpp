@@ -123,19 +123,19 @@ int main(){
 	{
 		//cin>>P[i];
 		P[i]=(rand() %1000)+1;
-		cout<<P[i]<<" ";
+		//cout<<P[i]<<" ";
 	}
 	cout<<"\n";
 	for(i=1;i<=n;i++)
 	{
 		D[i]=(rand() %1000)+1;
-		cout<<D[i]<<" ";
+		//cout<<D[i]<<" ";
 	}
 	cout<<"\n";
 	for(i=1;i<=n;i++)
 	{
-		D[i]=(rand() %1000)+1;
-		cout<<D[i]<<" ";
+		M[i]=(rand() %1000)+1;
+		//cout<<D[i]<<" ";
 	}
 		//cin>>M[i];
 	cout<<"\n"; 
